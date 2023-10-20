@@ -1,0 +1,22 @@
+<h1>Leer Lezen met Plezier</h1>
+    <p>Welkom bij onze leuke leesapplicatie! Kies een moeilijkheidsgraad en begin met lezen.</p>
+      
+    <!-- Moeilijkheidsgraad keuzes -->
+    <div class="difficulty">
+        <label for="difficulty">Kies moeilijkheidsgraad:</label>
+        <select id="difficulty" [(ngModel)]="lvl" name="lvl">
+            <option value="1">Niveau 1</option>
+            <option value="2">Niveau 2</option>
+            <option value="3">Niveau 3</option>
+            <option value="4">Niveau 4</option>
+            <option value="5">Niveau 5</option>
+            <option value="6">Niveau 6</option>
+            <option value="7">Niveau 7</option>
+            <option value="8">Niveau 8</option>
+            <option value="9">Niveau 9</option>
+            <option value="10">Niveau 10</option>
+        </select>
+    </div>
+
+    <!-- Startknop -->
+    <button class="button" (click)="startReadGame();">Start Lezen</button>

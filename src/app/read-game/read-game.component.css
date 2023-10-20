@@ -1,0 +1,21 @@
+span {
+    font-size: 10rem;
+}
+
+.flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  
+.flex-gap > div {
+    margin: 6px;
+}
+
+.hidden {
+    display: none;
+  }
+
+.readblock {
+    display: flex;
+    flex-direction: column;
+}

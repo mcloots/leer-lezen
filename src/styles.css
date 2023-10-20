@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+/* Reset de standaardmarges en vulling van de pagina */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Geef de pagina een achtergrondkleur en zet de tekstkleur */
+  body {
+    background-color: #FFD700; /* Geel */
+    color: #333; /* Donkergrijs */
+    font-family: 'Comic Sans MS', cursive; /* Kindvriendelijk lettertype */
+    text-align: center;
+  }
+  
+  /* Voeg wat opvallende stijlen toe aan de koptekst */
+  h1 {
+    font-size: 48px;
+    color: #FF6B6B; /* Felroze */
+    margin-top: 50px;
+  }
+  
+  /* Stijl voor de inleidende tekst */
+  p {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Stijl voor de moeilijkheidsgraadselectie */
+  .difficulty {
+    margin: 20px 0;
+  }
+  
+  /* Moeilijkheidsgraadselectie label */
+  .difficulty label {
+    font-size: 24px;
+    color: #FF6B6B; /* Felroze */
+  }
+  
+  /* Moeilijkheidsgraadselectie dropdown */
+  #difficulty {
+    font-size: 18px;
+    background-color: #fff; /* Witte achtergrond */
+    color: #4BA2B4; /* Lichtblauwe tekst */
+    border: 2px solid #FF6B6B; /* Felroze rand */
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Stijl voor de startknop */
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #FF6B6B; /* Felroze */
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  /* Maak de knop interactief met een hover-effect */
+  .button:hover {
+    background-color: #FF4076; /* Donkerroze */
+  }
+  
+  /* Media-query voor responsief ontwerp op kleinere schermen */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 36px;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+  
+    .button {
+      font-size: 20px;
+    }
+  }
+  

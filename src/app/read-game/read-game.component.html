@@ -1,0 +1,11 @@
+<div *ngIf="currentWord">
+        <div class="flex-gap">
+        <div *ngFor="let c of currentCharacters" class="readblock">
+            <span [hidden]="c.hidden">{{c.content}} </span>
+            <button class="button" (click)="toggleCharacter(c)">Toon</button>
+        </div>
+        </div>
+        <div>
+            <button class="button" (click)="showNextWord()">Volgende woord</button>
+        </div>
+</div>

@@ -1,0 +1,33 @@
+/* Stijl voor het bovenste menu */
+.top-menu {
+    background-color: #FF6B6B; /* Felroze */
+    text-align: center;
+    padding: 10px 0;
+    color: #fff; /* Witte tekst */
+  }
+  
+  /* Stijl voor menukoppelingen */
+  .top-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 18px;
+    transition: color 0.3s; /* Voeg een overgangseffect toe voor kleurverandering */
+  }
+  
+  .top-menu a:hover {
+    color: #FFD700; /* Geel bij hover */
+  }
+  
+  /* Media-query voor responsief ontwerp op kleinere schermen */
+  @media screen and (max-width: 768px) {
+    .top-menu {
+      padding: 5px 0;
+    }
+    
+    .top-menu a {
+      font-size: 16px;
+    }
+  }
+  
