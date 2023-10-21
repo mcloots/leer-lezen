@@ -22,7 +22,7 @@ export class ReadGameComponent implements OnInit {
 
   ngOnInit(): void {
     this.wordService.getWords().pipe(
-      map((words: Word[]) => words.filter(word => word.moeilijkheidsgraad == +this.route.snapshot.paramMap.get('lvl')!))
+      //map((words: Word[]) => words.filter(word => word.moeilijkheidsgraad <= +this.route.snapshot.paramMap.get('lvl')!))
     ).subscribe(result => {
       this.words = result;
       this.shuffleArray(this.words);
