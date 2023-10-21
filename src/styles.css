@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
 /* Reset de standaardmarges en vulling van de pagina */
 body, h1, p {
     margin: 0;
@@ -58,6 +60,7 @@ body, h1, p {
     text-decoration: none;
     border-radius: 5px;
     margin-top: 30px;
+    margin-right:10px;
     text-transform: uppercase;
     cursor: pointer;
   }

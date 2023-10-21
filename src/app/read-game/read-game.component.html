@@ -1,11 +1,14 @@
 <div *ngIf="currentWord">
         <div class="flex-gap">
         <div *ngFor="let c of currentCharacters" class="readblock">
-            <span [hidden]="c.hidden">{{c.content}} </span>
-            <button class="button" (click)="toggleCharacter(c)">Toon</button>
+            <span>{{c.content}} </span>
+            <button class="button" (click)="audioCharacter(c)"><i class="fa-solid fa-volume-high"></i></button>
         </div>
         </div>
         <div>
-            <button class="button" (click)="showNextWord()">Volgende woord</button>
+            <button class="button" (click)="audioWord()"><i class="fa-solid fa-play"></i></button>
+        </div>
+        <div>
+            <button class="button" (click)="showNextWord()"><i class="fa-solid fa-check"></i></button>
         </div>
 </div>

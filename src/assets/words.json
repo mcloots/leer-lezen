@@ -3,102 +3,78 @@
     "id": 1,
     "woord": "kip",
     "moeilijkheidsgraad": 1,
-    "audio": "assets/kip.mp3"
+    "audio": "/assets/kip.mp3"
   },
   {
     "id": 2,
     "woord": "sip",
     "moeilijkheidsgraad": 1,
-    "audio": "assets/sip.mp3"
+    "audio": "/assets/sip.mp3"
   },
   {
     "id": 3,
     "woord": "ik",
     "moeilijkheidsgraad": 1,
-    "audio": "assets/ik.mp3"
+    "audio": "/assets/ik.mp3"
   },
   {
     "id": 4,
     "woord": "pik",
     "moeilijkheidsgraad": 1,
-    "audio": "assets/pik.mp3"
+    "audio": "/assets/pik.mp3"
   },
   {
     "id": 7,
     "woord": "pim",
     "moeilijkheidsgraad": 1,
-    "audio": "assets/pim.mp3"
+    "audio": "/assets/pim.mp3"
   },
   {
     "id": 8,
     "woord": "kim",
     "moeilijkheidsgraad": 1,
-    "audio": "assets/kim.mp3"
+    "audio": "/assets/kim.mp3"
   },
   {
     "id": 9,
     "woord": "mik",
     "moeilijkheidsgraad": 1,
-    "audio": "assets/mik.mp3"
+    "audio": "/assets/mik.mp3"
   },
   {
     "id": 9,
     "woord": "kik",
     "moeilijkheidsgraad": 1,
-    "audio": "assets/mik.mp3"
+    "audio": "/assets/kik.mp3"
   },
   {
     "id": 9,
     "woord": "sim",
     "moeilijkheidsgraad": 2,
-    "audio": "assets/mik.mp3"
+    "audio": "/assets/sim.mp3"
   },
   {
     "id": 9,
     "woord": "mis",
     "moeilijkheidsgraad": 2,
-    "audio": "assets/mik.mp3"
+    "audio": "/assets/mis.mp3"
   },
   {
     "id": 9,
     "woord": "pip",
     "moeilijkheidsgraad": 2,
-    "audio": "assets/mik.mp3"
+    "audio": "/assets/pip.mp3"
   },
   {
     "id": 9,
     "woord": "is",
     "moeilijkheidsgraad": 2,
-    "audio": "assets/mik.mp3"
-  },
-  {
-    "id": 9,
-    "woord": "sip",
-    "moeilijkheidsgraad": 2,
-    "audio": "assets/mik.mp3"
+    "audio": "/assets/is.mp3"
   },
   {
     "id": 9,
     "woord": "sis",
     "moeilijkheidsgraad": 2,
-    "audio": "assets/mik.mp3"
-  },
-  {
-    "id": 9,
-    "woord": "kik",
-    "moeilijkheidsgraad": 1,
-    "audio": "assets/mik.mp3"
-  },
-  {
-    "id": 9,
-    "woord": "kik",
-    "moeilijkheidsgraad": 1,
-    "audio": "assets/mik.mp3"
-  },
-  {
-    "id": 9,
-    "woord": "kik",
-    "moeilijkheidsgraad": 1,
-    "audio": "assets/mik.mp3"
+    "audio": "/assets/sis.mp3"
   }
 ]

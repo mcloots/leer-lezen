@@ -45,8 +45,18 @@ export class ReadGameComponent implements OnInit {
     this.setWordAndCharacters();
   }
 
-  toggleCharacter(c: Character) {
-    c.hidden = !c.hidden;
+  audioCharacter(c: Character) {
+    let audio = new Audio();
+    audio.src = `/assets/${c.content}.mp3`;
+    audio.load();
+    audio.play();
+  }
+
+  audioWord() {
+    let audio = new Audio();
+    audio.src = this.words[this.currentWordIndex].audio;
+    audio.load();
+    audio.play();
   }
 
   breakWord(word: string) {
@@ -57,7 +67,7 @@ export class ReadGameComponent implements OnInit {
     for (let i = array.length - 1; i > 0; i--) {
       // Generate a random index between 0 and i (inclusive)
       const j = Math.floor(Math.random() * (i + 1));
-  
+
       // Swap array[i] and array[j]
       [array[i], array[j]] = [array[j], array[i]];
     }

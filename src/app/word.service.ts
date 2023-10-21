@@ -37,7 +37,7 @@ export class WordService {
       if(i === 0) {
       separated.push({content:character, hidden:false});
       } else {
-        separated.push({content:character, hidden:true});
+        separated.push({content:character, hidden:false});
       }
       i++;
     }
